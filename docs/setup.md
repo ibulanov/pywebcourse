@@ -23,7 +23,7 @@ python --version
 pywebcourse/
 ├── lesson-01/
 │   ├── data.py
-│   ├── objects.txt
+│   ├── timesheet.txt
 │   └── solutions.py
 ├── lesson-02/
 └── ...
@@ -42,9 +42,9 @@ python solutions.py
 Чтобы использовать данные из `data.py` в своём файле, импортируйте их. Оба файла должны лежать в одной папке:
 
 ```python
-from data import objects
+from data import products
 
-print(len(objects))  # 5
+print(len(products))  # 6
 ```
 
 ## Как проверять себя
